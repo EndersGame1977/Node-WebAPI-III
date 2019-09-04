@@ -17,8 +17,4 @@ function logger(req, res, next) {
   next();
 }
 
-server.get("/", (req, res) => {
-  res.send(`testing`);
-});
-
 module.exports = server;
